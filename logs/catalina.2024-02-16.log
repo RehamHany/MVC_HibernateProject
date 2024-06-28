@@ -1,0 +1,526 @@
+16-Feb-2024 18:51:52.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.96
+16-Feb-2024 18:51:52.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 14:56:59 UTC
+16-Feb-2024 18:51:52.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.96.0
+16-Feb-2024 18:51:52.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Feb-2024 18:51:52.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Feb-2024 18:51:52.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Feb-2024 18:51:52.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\HP 450 G6\.jdks\corretto-1.8.0_392\jre
+16-Feb-2024 18:51:52.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+16-Feb-2024 18:51:52.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+16-Feb-2024 18:51:52.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\lectureSpring\projectMVC_HIBERNATE\crud\SpringMvcCrudApp
+16-Feb-2024 18:51:52.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\xampp\tomcat
+16-Feb-2024 18:51:52.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\xampp\tomcat
+16-Feb-2024 18:51:52.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\lectureSpring\projectMVC_HIBERNATE\crud\SpringMvcCrudApp
+16-Feb-2024 18:51:52.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\lectureSpring\projectMVC_HIBERNATE\crud\SpringMvcCrudApp\temp
+16-Feb-2024 18:51:52.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\lectureSpring\projectMVC_HIBERNATE\crud\SpringMvcCrudApp\conf\logging.properties
+16-Feb-2024 18:51:52.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2024 18:51:52.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=54899:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+16-Feb-2024 18:51:52.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Feb-2024 18:51:52.717 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\HP 450 G6\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 8.2\bin;C:\Users\HP 450 G6\AppData\Local\Microsoft\WindowsApps;C:\Users\HP 450 G6\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP 450 G6\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin;;;.]
+16-Feb-2024 18:51:53.148 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Feb-2024 18:51:53.280 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2607 ms
+16-Feb-2024 18:51:53.499 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2024 18:51:53.499 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.96]
+16-Feb-2024 18:51:53.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\lectureSpring\projectMVC_HIBERNATE\crud\SpringMvcCrudApp\conf\Catalina\localhost\ROOT.xml]
+16-Feb-2024 18:52:00.842 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2024 18:52:01.223 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [279] milliseconds.
+16-Feb-2024 18:52:01.552 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+16-Feb-2024 18:52:04.086 INFO [localhost-startStop-1] com.mchange.v2.log.MLog.<clinit> MLog clients using java 1.4+ standard logging.
+16-Feb-2024 18:52:04.183 INFO [localhost-startStop-1] com.mchange.v2.c3p0.C3P0Registry.banner Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+16-Feb-2024 18:52:05.663 INFO [localhost-startStop-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.2.Final}
+16-Feb-2024 18:52:05.672 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+16-Feb-2024 18:52:05.675 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+16-Feb-2024 18:52:05.992 INFO [localhost-startStop-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+16-Feb-2024 18:52:06.630 INFO [localhost-startStop-1] com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge139b11dmb0773t1ur7|6e5369e0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge139b11dmb0773t1ur7|6e5369e0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3307/productDB?useSSL=false&serverTimezone=UTC, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+16-Feb-2024 18:55:34.946 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@24241f53 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:55:34.955 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:55:34.968 WARN [localhost-startStop-1] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH000342: Could not obtain connection to query metadata : Connections could not be acquired from the underlying database!
+16-Feb-2024 18:55:35.136 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#1] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@3c526e87 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:55:35.140 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#1] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:55:36.127 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#0] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@3ab19b0a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:55:36.137 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#0] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:55:36.149 INFO [localhost-startStop-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-Feb-2024 18:55:36.308 INFO [localhost-startStop-1] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.makeLobCreatorBuilder HHH000422: Disabling contextual LOB creation as connection was null
+16-Feb-2024 18:55:39.023 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@182f21b4 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:55:39.025 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:55:39.246 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#1] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@20d27e26 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:55:39.251 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#1] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:55:40.138 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 218586 ms
+16-Feb-2024 18:55:40.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\lectureSpring\projectMVC_HIBERNATE\crud\SpringMvcCrudApp\conf\Catalina\localhost\ROOT.xml] has finished in [226,639] ms
+16-Feb-2024 18:55:40.182 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2024 18:55:40.244 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 226964 ms
+16-Feb-2024 18:59:21.137 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@475b95f8 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:59:21.153 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:59:21.155 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: null
+16-Feb-2024 18:59:21.157 ERROR [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Connections could not be acquired from the underlying database!
+16-Feb-2024 18:59:21.270 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#0] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@ce9c5eb -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:59:21.286 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#0] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:59:21.928 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /favicon.ico
+16-Feb-2024 18:59:22.372 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#1] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@62d3d03b -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:59:22.388 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#1] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:59:25.227 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@578cc53a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:59:25.242 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#2] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 18:59:25.353 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#0] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@62c19555 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+	com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+		at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+		at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+		at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+		at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+		at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+		at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+		at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:121)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+		... 12 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:607)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 15 more
+16-Feb-2024 18:59:25.371 WARNING [C3P0PooledConnectionPoolManager[identityToken->1hge139b11dmb0773t1ur7|6e5369e0]-HelperThread-#0] com.mchange.v2.resourcepool.BasicResourcePool.forceKillAcquires Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@5f02b699 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+16-Feb-2024 20:53:13.932 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2024 20:53:14.243 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2024 20:53:14.391 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Feb-2024 20:53:14.394 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+16-Feb-2024 20:53:14.546 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2024 20:53:14.672 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

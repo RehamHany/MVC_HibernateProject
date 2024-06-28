@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:41:00 +0200] "GET / HTTP/1.1" 200 4984
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:41:01 +0200] "GET /resources/css/style.css;jsessionid=93AE8EF4E639CA94A67BD8B4A56C4588 HTTP/1.1" 200 235
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:41:01 +0200] "GET /resources/css/bootstrap.min.css;jsessionid=93AE8EF4E639CA94A67BD8B4A56C4588 HTTP/1.1" 200 144877
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:41:06 +0200] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:41:21 +0200] "GET /addProduct? HTTP/1.1" 200 2373
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:41:21 +0200] "GET /resources/css/style.css HTTP/1.1" 200 235
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:43:39 +0200] "POST /processAddProduct HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:43:39 +0200] "GET / HTTP/1.1" 200 5191
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:44:40 +0200] "GET /searchProduct?searchKey=c HTTP/1.1" 200 1089
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:44:52 +0200] "GET /searchProduct?searchKey=B HTTP/1.1" 200 1089
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:45:12 +0200] "GET /searchProduct?searchKey= HTTP/1.1" 200 1089
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:45:36 +0200] "GET /searchProduct?searchKey=cheese HTTP/1.1" 200 1909
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:46:03 +0200] "GET /searchProduct?searchKey=BigChipci HTTP/1.1" 200 1912
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:46:06 +0200] "GET /showDetails?productId=5 HTTP/1.1" 200 2616
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:46:21 +0200] "GET /updateProduct?productId=5 HTTP/1.1" 200 2708
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:46:34 +0200] "GET /deleteProduct?productId=5 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Feb/2024:16:46:34 +0200] "GET / HTTP/1.1" 200 4368

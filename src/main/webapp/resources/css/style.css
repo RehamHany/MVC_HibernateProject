@@ -1,0 +1,24 @@
+.error {
+    color: red;
+}
+
+
+
+
+.tbl-div {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-30%, -30%);
+}
+
+.test
+{
+    color: #20c997;
+}
+
+.searchDiv
+{
+    width: 20%;
+    left: 35%;
+}
